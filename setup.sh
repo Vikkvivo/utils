@@ -1,4 +1,4 @@
-cat <<EOF > /.venv/lib/python3.10/site-packages/genrl/logging_utils/system_utils.py
+cat <<'EOF' > /root/.venv310/lib/python3.10/site-packages/genrl/logging_utils/system_utils.py
 import platform
 import subprocess
 import sys
