@@ -9,7 +9,7 @@ deb http://security.ubuntu.com/ubuntu focal-security main restricted universe mu
 EOF
 apt-get clean
 apt-get update --fix-missing
-apt-get upgrade -y
+apt-get update && apt-get upgrade -y
 EOS
 chmod +x /usr/local/bin/fix-apt.sh
 /usr/local/bin/fix-apt.sh'
